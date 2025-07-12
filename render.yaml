@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mega-sic-bac-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot_sicbac.py
